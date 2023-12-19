@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    height: 100%;  
+    background-color: #FFFAFA;
+}
+
+.page1 {
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.contents {
+    margin-top: 15px;
+    background-color: #91AA9D  ;
+    border-radius: 20px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    color:#193441 ;
+}
+.personel-info {
+    margin: 5px;
+    width: 200px;
+    height: 200px;  
+    background-color: #91AA9D  ;
+    border-radius: 20px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    color:#D97B66 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail {
+    margin: 5px;
+    width: 200px;
+    height: 200px;  
+    background-color: #91AA9D  ;
+    border-radius: 20px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    color:#D97B66 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.page2 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.header span {
+    width: 100%;
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 45px;
+}
+
+.links{
+    list-style-type: none;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#link {
+    display: inline;
+    position: relative;
+    left: -20px;
+}
+
+a {
+    color: #000;    
+}
+
+.short-bubble {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    font-family: 'Kalam', cursive;
+    margin-top: 15px;
+}
+
+.bubble {
+    background-color: #C3AED7;
+    border-radius: 20px;
+}
+
+.head {
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.head span {
+    color: #363350;
+    font-size: 32px;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    margin-top: auto;
+    margin-top: -10px;
+}
+
+.hobbies {
+    margin-top: 15px;
+    background-color: #CFE17E;
+    border-radius: 20px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+
+.projects {
+    margin-top: 15px;
+    background-color: #CFE17E;
+    border-radius: 20px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+.skills {
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+
+p {
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
